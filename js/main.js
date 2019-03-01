@@ -8,6 +8,7 @@ $(document).ready(function(){
       $("#navIcon5").fadeIn(4000);
       $(".fontTitle").fadeIn(3000);
       $(".fontSubTitle").fadeIn(3500);
+      $(".fontRegular").fadeIn(3500);
       $(".headshot").fadeIn(4000);
   });
 

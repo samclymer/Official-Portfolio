@@ -2,10 +2,21 @@
 
 .main-container {
   display: flex;
+  margin:10px;
+  flex-flow: row wrap;
+  align-items: flex-start;
 }
 
-.side-container {
-  flex-basis: 30%;
+.left-side-container {
+  flex-basis: 500px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px;
+}
+
+.right-side-container {
+  flex-basis: 1100px;
   display:flex;
   flex-direction: column;
   justify-content: center;
@@ -17,6 +28,12 @@
   justify-content: center;
 }
 
+.flex-container {
+  display:flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: flex-start;
+}
 
 * {
   box-sizing: border-box;
@@ -24,7 +41,7 @@
 
 
 /*navbar main*/
-body {margin:0;}
+body {margin: 0;}
 
 #bgvid {
   position: fixed;
@@ -39,16 +56,15 @@ body {margin:0;}
   width: 100%;
   background-color: transparent;
   overflow: hidden;
-  bottom: 75;
+  bottom: 40;
   position: fixed;
-  
+  display: flex;
 }
 
 .icon-bar a {
-  float: left;
   width: 25%;
   text-align: center;
-  padding: 12px 0;
+  padding: 5px;
   transition: all 0.3s ease;
   color: black;
   font-size: 40px;
@@ -66,8 +82,8 @@ body {margin:0;}
 
 .headshot {
   background-color:transparent;
-  width: 300px;
-  height:300px;
+  width: 250px;
+  height:250px;
   padding: 10px;
   border-radius: 50%;
   display: none;
@@ -76,14 +92,46 @@ body {margin:0;}
 
 .fontTitle {
   font-family: 'Raleway', sans-serif;
-  font-size: 80;
+  font-size: 60;
   margin: 10px;
   display: none;
 }
 
 .fontSubTitle {
   font-family: 'Raleway', sans-serif;
-  font-size: 50;
+  font-size: 40;
   margin: 10px;
   display: none;
+}
+
+.fontRegular {
+  font-family: 'Raleway', sans-serif;
+  font-size: 25;
+  margin: 5px;
+  display: none;
+}
+
+.skillsFont {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16;
+  margin: 5px;
+}
+
+.skillsIcon {
+  text-align: center;
+  padding: 10px;
+  transition: all 0.3s ease;
+  color: black;
+  font-size: 150px;
+}
+
+.flexWrapRow {
+  display:flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.justifyleft {
+  justify-content: flex-start;
 }
