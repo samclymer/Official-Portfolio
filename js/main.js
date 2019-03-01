@@ -1,6 +1,6 @@
 /* Fade in Navigation Icons upon page load*/
 $(document).ready(function(){
-    $("#bgvid").fadeIn(3000);
+      $("#bgvid").fadeIn(3000);
       $("#navIcon1").fadeIn(2000);
       $("#navIcon2").fadeIn(2500);
       $("#navIcon3").fadeIn(3000);
