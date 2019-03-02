@@ -122,7 +122,7 @@ body {margin: 0;}
   padding: 10px;
   transition: all 0.3s ease;
   color: black;
-  font-size: 150px;
+  font-size: 125px;
 }
 
 .flexWrapRow {
@@ -132,6 +132,23 @@ body {margin: 0;}
   justify-content: flex-start;
 }
 
+.flexWrapRowSocial {
+  display:flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: flex-start;
+  margin:5px;
+}
+
 .justifyleft {
   justify-content: flex-start;
 }
+
+.socialIcon {
+  text-align: center;
+  padding: 10px;
+  transition: all 0.3s ease;
+  color: black;
+  font-size: 65px;
+}
+
