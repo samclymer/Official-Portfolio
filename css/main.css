@@ -112,14 +112,13 @@ body {
 .fontSubTitleBody {
   font-family: 'Raleway', sans-serif;
   font-size: 40;
-  margin: 10px;
-  margin-left: -1000px;
+  margin: 2000px 10px 10px 10px;
 }
 
 .fontRegular {
   font-family: 'Raleway', sans-serif;
   font-size: 25;
-  margin: 5px;
+  margin: 2000px 5px 5px 5px;
   
 }
 
