@@ -34,42 +34,13 @@
         </div>
         <div class="right-side-container">
             <div>
-                <h2 class="fontSubTitleBody">About Me:</h2>
-                <ul>
-                    <li class="fontRegular">Currently resides in Melbourne, Florida, U.S.A.</li>
-                    <li class="fontRegular">Lives with his wife, Sarah, and the world's coolest cat, Smokey.</li>
-                    <li class="fontRegular">Blah, Blah, Blah....gotta keep putting stuff here. Do I like the bullet
-                        points? Not sure...</li>
-                </ul>
-            </div>
-            <div>
-                <h2 class="fontSubTitleBody">Skills:</h2>
-                <div class="flex-container">
-                    <div class="flexWrapRow">
-                        <div class="hypertextCSS"><i class="skillsIcon fab fa-html5"></i></div>
-                        <div class="hypertextCSS"><i class="skillsIcon fab fa-css3-alt"></i></div>
-                        <ul>
-                            <li class="skillsFont">Strong foundation in both HTML5 and CSS3 properties and concepts</li>
-                            <li class="skillsFont">Experienced with various component libraries, including Bootstrap and
-                                Materialize</li>
-                                
-                        </ul>
-                    </div>
-                    <div class="flexWrapRow">
-                        <div class="javascript"><i class="skillsIcon fab fa-js-square"></i></div>
-                        <ul>
-                            <li class="skillsFont">Decent knowledge of primary JavaScript syntax and fundementals, such as functions, arrays, loops and objects</li>
-                            <li class="skillsFont">blah blah blah blah blah blah blah</li>
-                        </ul>
-                    </div>
-                    <div class="flexWrapRow">
-                            <div class="nodejs"><i class="skillsIcon fab fa-node-js"></i></div>
-                            <ul>
-                                <li class="skillsFont">blah blah blah blah blah blah blah</li>
-                                <li class="skillsFont">blah blah blah blah blah blah blah</li>
-                            </ul>
-                        </div>
-                </div>
+                <h2 class="fontSubTitleBody">Contact Sam:</h2>
+                <form action="mail.php" method="POST">
+                    <p>Name</p> <input type="text" name="name">
+                    <p>Email</p> <input type="text" name="email">
+                    <p>Message</p><textarea name="message" rows="6" cols="25"></textarea><br />
+                    <input type="submit" value="Send"><input type="reset" value="Clear">
+                    </form>
             </div>
         </div>
     </div>
