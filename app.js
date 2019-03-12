@@ -36,6 +36,7 @@ app.post('/send', (req, res) => {
     // create reusable transporter object using the default SMTP transport
     let transporter = nodemailer.createTransport({
         host: "smtp-mail.outlook.com",
+        secureConnection: false,
         port: 587,
         tls: {
             ciphers: 'SSLv3'
